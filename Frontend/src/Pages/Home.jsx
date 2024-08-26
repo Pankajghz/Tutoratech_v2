@@ -1,11 +1,10 @@
-import Footer from "../components/Footer/Footer";
-import Hero from "../components/Hero/Hero";
-import HowItWorks from "../components/HowItWorks/HowItWorks";
-import Nav from "../components/Navbar/Nav";
-import NewsletterForm from "../components/NewsletterForm/NewsletterForm";
-import Pricing from "../components/Pricing/Pricing";
-import Testimonials from "../components/Testimonials/Testimonials";
-import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
+import FAQs from "../components/FAQs";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Nav from "../components/Nav";
+import Testimonials from "../components/Testimonials";
+import WhyChooseUs from "../components/WhyChooseUs";
+import Support from "../components/Support";
 
 const Home = () => {
   return (
@@ -13,10 +12,11 @@ const Home = () => {
       <Nav />
       <Hero />
       <WhyChooseUs />
-      <HowItWorks />
       <Testimonials />
-      <Pricing />
-      <NewsletterForm />
+      <Support />
+      <section id="faqs">
+        <FAQs />
+      </section>
       <Footer />
     </>
   );

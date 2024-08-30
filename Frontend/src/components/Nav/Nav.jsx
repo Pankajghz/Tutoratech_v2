@@ -189,7 +189,7 @@ const Nav = () => {
                 Mock Interview
               </Link>
               <Link
-                to="/job-referrals"
+                to="/referrals"
                 className="text-lg text-gray-700 mb-4 hover:text-purple-700 transition-colors duration-200"
                 onClick={handleLinkClick}
               >

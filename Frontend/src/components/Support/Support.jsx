@@ -7,6 +7,8 @@ const Support = () => {
     name: "",
     contactNumber: "",
     email: "",
+    reason: "",
+    Message: "",
   });
 
   const handleChange = (e) => {
@@ -35,7 +37,13 @@ const Support = () => {
 
       if (result.success) {
         toast.success("Your message has been sent!");
-        setFormData({ name: "", contactNumber: "", email: "" }); // Reset form after submission
+        setFormData({
+          name: "",
+          contactNumber: "",
+          email: "",
+          reason: "",
+          message: "",
+        }); // Reset form after submission
       } else {
         toast.error("Failed to send your message. Please try again later.");
       }
@@ -128,6 +136,8 @@ const Support = () => {
               name="reason"
               className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
               placeholder="Reason for contact"
+              value={formData.reason}
+              onChange={handleChange}
             />
           </div>
           <div>
@@ -139,6 +149,8 @@ const Support = () => {
               className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
               rows="4"
               placeholder="Your message"
+              value={formData.message}
+              onChange={handleChange}
               required
             ></textarea>
           </div>

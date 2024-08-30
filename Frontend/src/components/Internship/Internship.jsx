@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const TrainingAndInternship = () => {
+const Internship = () => {
   const card_1 = [
     {
       title: "Web Development",
@@ -125,7 +125,7 @@ const TrainingAndInternship = () => {
                     to="/contact"
                     className="bg-purple-700 text-white px-12 py-2 rounded-3xl hover:bg-purple-800 transition duration-300 w-full text-center"
                   >
-                    Buy
+                    Enroll
                   </Link>
                 </div>
               </div>
@@ -159,7 +159,7 @@ const TrainingAndInternship = () => {
                   to="/contact"
                   className="bg-purple-700 text-white px-16 py-2  rounded-3xl hover:bg-purple-800 transition duration-300 w-full text-center"
                 >
-                  Buy
+                  Enroll
                 </Link>
               </div>
             </div>
@@ -170,4 +170,4 @@ const TrainingAndInternship = () => {
   );
 };
 
-export default TrainingAndInternship;
+export default Internship;

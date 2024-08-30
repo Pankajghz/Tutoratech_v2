@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Resume = () => {
   return (
     <>
@@ -10,7 +12,7 @@ const Resume = () => {
             alt="Resume Writing and Review"
           />
           <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50">
-            <h1 className="hidden md:block text-4xl md:text-6xl font-bold text-white text-center">
+            <h1 className=" md:block text-4xl md:text-6xl font-bold text-white text-center">
               Resume Writing and Review
             </h1>
           </div>
@@ -31,9 +33,12 @@ const Resume = () => {
               strong impression for the job you are targeting.
             </p>
             <div className="flex justify-center mt-6">
-              <button className="bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-purple-600 transition duration-300 ">
+              <Link
+                to="/contact"
+                className="bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-purple-600 transition duration-300 "
+              >
                 Resume Writing
-              </button>
+              </Link>
             </div>
           </div>
           <div className="md:w-1/3 p-4">
@@ -73,9 +78,12 @@ const Resume = () => {
               capturing the attention of potential employers.
             </p>
             <div className="flex justify-center mt-6">
-              <button className="bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-purple-600 transition duration-300">
+              <Link
+                to="/contact"
+                className="bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-purple-600 transition duration-300"
+              >
                 Resume Review
-              </button>
+              </Link>
             </div>
           </div>
         </div>

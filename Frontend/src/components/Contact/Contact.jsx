@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const ContactUs = () => {
+const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -176,4 +176,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contact;

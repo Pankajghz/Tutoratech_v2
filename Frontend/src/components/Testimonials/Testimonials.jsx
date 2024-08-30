@@ -40,7 +40,7 @@ const Testimonials = () => {
       title: "API Developer",
       company: "Tech Mahindra",
       quote:
-        "I was having a hard time getting interview opportunities during my job search until I came across Tutoratech. Their referral service really helped me get a chance, and I’m grateful for their support.",
+        "I was struggling to get interviews, but finding Tutoratech made a huge difference. Their mentorship and mock interviews boosted my confidence, helping me sharpen my skills and approach. The real game-changer was their referral service, which finally got my foot in the door. I'm incredibly thankful for the guidance and support they provided throughout my job search journey.",
     },
   ];
 

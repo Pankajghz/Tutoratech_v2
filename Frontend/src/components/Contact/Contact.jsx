@@ -71,11 +71,11 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <MdPhone className="text-3xl mr-4 text-purple-600" />
-                <span className="text-lg text-gray-700">9554655661</span>
+                <span className="text-lg text-gray-700">9902082100</span>
               </div>
               <div className="flex items-center">
                 <MdWhatsapp className="text-3xl mr-4 text-green-500" />
-                <span className="text-lg text-gray-700">9554655661</span>
+                <span className="text-lg text-gray-700">9902082100</span>
               </div>
             </div>
 
